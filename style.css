@@ -1,0 +1,410 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+
+}
+
+#nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+#aboutbtn {
+    border: none;
+    gap: 3;
+}
+
+#nav-part1 h3 {
+    border: 1.5px solid #000;
+    border-radius: 20px;
+    padding: 1px 6px;
+}
+
+#nav-part3 button {
+    border-radius: 30px;
+    padding: 6px 12px;
+    font-size: 16px;
+}
+
+#nav-part2 h1 {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.btn2 {
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 2px 5px;
+    border-radius: 20px;
+}
+
+#main>h1 {
+    color: salmon;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 300px;
+}
+
+#img1,#img2,#img3,#img4{
+    height: 450px;
+    width: 400px;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+}
+
+#img1 {
+    transform: translate(-50%, -50%) rotate(-30deg);
+
+}
+
+#img2 {
+    transform: translate(-50%, -50%) rotate(-20deg);
+
+}
+
+#img3 {
+    transform: translate(-50%, -50%) rotate(-10deg);
+
+}
+
+#btm-left1 {
+    position: absolute;
+    bottom: 5%;
+    left: 2.5%;
+    font-size: 20px;
+}
+
+#btm-right1 {
+    position: absolute;
+    bottom: 5%;
+    right: 2.5%;
+    font-size: 20px;
+}
+
+.bt1 {
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 0px 2.5px;
+
+}
+
+/* css of about us page*/
+
+#aboutintro {
+    height: 35%;
+    width: 100%;
+    padding: 15px 20px;
+}
+
+#aboutintro h1 {
+    font-size: 115px;
+    letter-spacing: -3px;
+}
+
+#introplace {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+}
+
+#introplace h3,
+#introplace h4 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#intrologo {
+    height: 55%;
+    width: 100%;
+    background-image: url(image9.2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#about1sec {
+    height: 35%;
+    width: 100%;
+    display: flex;
+    padding: 15px 10px;
+}
+
+#about1sec h2 {
+    font-size: 36px;
+    padding: 20px 15px;
+    border-right: 2px solid #000;
+}
+
+#aboutpara h3 {
+    font-size: 28px;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-weight: 600;
+
+}
+
+#about1sec-part2 h1 {
+    font-size: 30px;
+    padding-top: 15px;
+    font-weight: 900;
+    padding-left: 15px;
+}
+
+#spacer {
+    height: 20px;
+    width: 100%;
+}
+
+#contactus {
+    padding: 15px 20px;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #000;
+}
+
+#contactus h4 {
+    padding: 15px 15px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+/*css of home page*/
+
+#mainhome{
+    height: 100%;
+    width: 100;
+    display: flex;
+    flex-direction: column;
+}
+
+.parts{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    }
+#part1-1{
+    width:60%;
+    margin-left:0%;
+    padding: 0px 5px;
+}
+#part1-2{
+    width:40%;
+    margin-right: 0%;
+}
+#part2-1{
+    width:40%;
+    margin-left: 0%;
+}
+#part2-2{
+    width:60%;
+    margin-right:0%;
+    padding: 0px 5px;
+
+}
+#part3-1{
+    width:60%;
+    margin-left:0%;
+    padding: 0px 5px;
+}
+#part3-2{
+    width:40%;
+    margin-right: 0%;
+}
+#part4-1{
+    width:40%;
+    margin-left: 0%;
+}
+#part4-2{
+    width:60%;
+    margin-right:0%;
+    padding: 0px 5px;
+}
+#offeredservices{
+    height:15%;
+    width: 100%;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;;
+}
+.homeimage{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.headings{
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 8px;
+}
+.metadata{
+    font-size: 25px;
+    font-weight: 100;
+    padding: 4px 4px;
+    padding-bottom: 20px;
+
+}
+.btn3 {
+    background-color: fuchsia;
+    color: white;
+    border: none;
+    padding: 2px 5px;
+    border-radius: 20px;   
+}
+#buttontags{
+    padding-top:20px;
+}
+/* css of login page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    width: 50%;
+    max-width: 100%;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#login-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: salmon;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+#login-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#login-button:hover {
+    background-color: #45a049;
+}
+
+#error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}
+/* css of 3pages */
+
+#upperheading{
+    width: 100%;
+    height: 25%;
+    background-color:wheat;
+}
+#upperheading h3{
+    font-size: 48px;
+    color:black;
+    padding-top: 37px;
+}
+#upperheading h4 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 9px;
+    color:black;
+}
+#lastpart{
+    height: 5%;
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+#midpart{
+    height:65%;
+    width:100%;
+    padding: 15px 15px;
+}
+#midpart p{
+    font-size: 30px;
+}
+.btn4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: fuchsia;
+    color: white;
+    border: none;
+    padding: 5px 13px;
+    border-radius: 20px;   
+}
